@@ -1,0 +1,17 @@
+body {
+  font-family: system-ui;
+  font-size: 23px;
+  text-align: center;
+  background-color: rgb(18, 18, 18);
+  color: white;
+  padding: 24px;
+}
+
+iframe {
+  padding: 10px 0 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}

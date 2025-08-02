@@ -1,0 +1,13 @@
+#videos img {
+  padding: 5px;
+  width: 280px;
+}
+
+body {
+  font-family: system-ui;
+  font-size: 23px;
+  color: white;
+  text-align: center;
+  padding: 24px;
+  background-color: rgb(18, 18, 18);
+}

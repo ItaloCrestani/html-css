@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping tags</title>
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: darkgray;
+        margin: 0px;
+      }
+
+      header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+      }
+
+      nav {
+        background-color: gray;
+        padding: 3px;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.295);
+      }
+
+      nav > a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 30px;
+      }
+
+      nav > a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        background-color: white;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px 0px;
+        box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.433);
+      }
+
+      #assuntos {
+        padding: 20px 0px;
+      }
+
+      article {
+        background-color: lightgray;
+        padding: 5px;
+      }
+
+      article > aside {
+        background-color: gray;
+      }
+
+      footer {
+        font-weight: bold;
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding: 8px;
+        margin: 0px;
+      }
+
+      #bola {
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        margin: 10px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu Site</h1>
+      <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="assuntos">Esportes Política Tecnologia</section>
+      <section id="noticias">
+        <article>
+          <h2>Notícias sobre o Brasil</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+            eius tempore recusandae, iste temporibus amet odit nostrum veniam
+            nobis incidunt commodi qui rerum alias provident beatae iusto fugiat
+            molestias sint! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Aperiam quisquam reiciendis expedita dolores repellat dicta
+            quis laboriosam repudiandae quaerat, voluptatem vel est itaque iusto
+            facere minima enim. Placeat, ipsam aut.
+          </p>
+          <aside>
+            <p>Escrito por José da Silva</p>
+          </aside>
+        </article>
+        <article></article>
+      </section>
+    </main>
+    <footer>Desenvolvido pelo CursoemVideo</footer>
+    <div id="bola"></div>
+  </body>
+</html>
