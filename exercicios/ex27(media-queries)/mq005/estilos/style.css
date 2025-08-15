@@ -36,12 +36,10 @@ i#burguer:hover {
 
 menu {
   display: none;
-  
 }
 
 menu > ul {
   list-style-type: none;
-  
 }
 
 menu > ul > li > a {
@@ -76,4 +74,3 @@ article > p {
   margin-bottom: 20px;
   text-indent: 20px;
 }
-
