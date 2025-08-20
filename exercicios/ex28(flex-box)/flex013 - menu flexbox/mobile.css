@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+header,
+header > nav {
+  flex-flow: column nowrap;
+}
+
+header > h1 {
+  flex-basis: 50px;
+}
+
+i#burguer {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.726);
+  width: 100vw;
+  margin-top: 15px;
+  padding: 6px;
+  text-align: center;
+  cursor: pointer;
+}
+
+i#burguer:hover {
+  background-color: rgba(255, 255, 255, 0.597);
+  color: black;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+i#burguer:active {
+  background-color: white;
+}
+
+header > nav {
+  display: none;
+  width: 90vw;
+}

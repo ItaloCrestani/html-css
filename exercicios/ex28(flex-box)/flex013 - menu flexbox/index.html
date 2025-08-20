@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Flexbox</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="mobile.css"
+      media="screen and (max-width: 580px)"
+    />
+  </head>
+  <body onresize="mudouTamanho()">
+    <header>
+      <h1>Meu Site</h1>
+
+      <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+
+      <nav id="itens">
+        <a href="#">Opção 1</a>
+        <a href="#">Opção 2</a>
+        <a href="#">Opção 3</a>
+        <a href="#">Opção 4</a>
+        <a href="#">Opção 5</a>
+        <a href="#">Opção 6</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Teste de Flexbox</h2>
+
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque non
+        molestiae nisi. Dolores soluta ab odio amet aliquid velit, minima fugiat
+        deleniti eos iure, quam nulla minus quo animi at! Lorem ipsum dolor sit,
+        amet consectetur adipisicing elit. Quo maxime tempore dicta omnis magnam
+        minima exercitationem vitae asperiores. Ut vitae soluta maiores totam
+        incidunt hic laboriosam eum fuga distinctio officia?
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nam soluta
+        distinctio totam id obcaecati deleniti itaque facere temporibus, qui
+        magnam accusamus facilis animi asperiores debitis reprehenderit quasi.
+        Quas, alias.
+      </p>
+    </main>
+
+    <script>
+      function mudouTamanho() {
+        if (window.innerWidth >= 580) {
+          itens.style.display = "flex"
+        } else {
+          itens.style.display = "none"
+        }
+      }
+
+      function clickMenu() {
+        if (itens.style.display == "flex") {
+          itens.style.display = "none"
+        } else {
+          itens.style.display = "flex"
+        }
+      }
+    </script>
+  </body>
+</html>
